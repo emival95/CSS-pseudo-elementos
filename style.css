@@ -1,0 +1,33 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+.first-letter::first-letter{
+    color: coral;
+}
+
+.first-line::first-line{
+    color: coral;
+    
+}
+
+.first-line::first-letter{
+    color: blue;
+}
+
+li::marker{
+    color: red;
+    font-size: 40px;
+}
+
+.before::before {
+    content: "";
+    background: url(./images/cafe.jpg) center center no-repeat;
+    display: inline-block;
+    width: 360px;
+    height: 300px;
+}
+
+
+.after::after {
+    content: url(./images/cafe.jpg);
+}
